@@ -1,3 +1,6 @@
+// body {
+//     background: #a1dae3 url("../media/webpacklogo.png") repeat;
+// }
 * {
     margin: 0;
     padding: 0;
@@ -8,10 +11,9 @@
     display: flex;
     flex-direction: column;
 }
-
 // header & navigaion
 .sec-header {
-    background: url("assets/media/resizedfog.jpg");
+    background: url("/assets/media/fog-1535201_1920.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
