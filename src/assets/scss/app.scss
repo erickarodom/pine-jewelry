@@ -1,3 +1,85 @@
-body {
-    background: #a1dae3 url("../media/webpacklogo.png") repeat;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+// header & navigaion
+.sec-header {
+    background: url("assets/media/resizedfog.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container,
+.navbar,
+.hamburger {
+    margin-top: 1em;
+}
+
+.hamburger {
+    position: absolute;
+    right: 20px;
+}
+
+.hamburger a {
+    color: #bca64d;
+}
+
+.navbar a {
+    display: none;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 2em;
+}
+
+.header-text {
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-text h1 {
+    font-size: 30px;
+    font-weight: 300;
+    text-shadow: 1px 1px #000;
+}
+
+.hand-crafted {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+.play {
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 15px;
+}
+
+.shop {
+    background-color: #bca64d;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    margin-top: 50px;
+    padding: 15px 67px;
 }
