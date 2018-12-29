@@ -8,7 +8,9 @@
     display: flex;
     flex-direction: column;
 }
+
 // header & navigaion
+
 .sec-header {
     background-image: url("../media/resized/fog-800x900.png");
     background-repeat: repeat;
@@ -84,6 +86,8 @@
     text-transform: uppercase;
 }
 
+// Main panel
+
 .mp-1,
 .mp-2,
 .mp-3 {
@@ -122,6 +126,8 @@
 .img-5 {
     padding: 0 12px 0 12px;
 }
+
+// Inverted panel
 
 .inverted-panel {
     display: flex;
@@ -172,11 +178,49 @@ p.img-text, {
     padding: 0 28px 40px 28px;
 }
 
+// Closing panel
+
 .closing-panel {
     display: flex;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
     align-items: center;
     text-align: center;
+}
+
+.closing-panel div + h2 {
+    margin: 0 35px 0 35px;
+    font-size: 22px;
+    font-weight: 300;
+    color: #999;
+}
+
+.coupon {
+    margin: 15px 35px 25px 35px;
+    font-size: 22px;
+    font-weight: 400;
+    color: #666;
+}
+
+.close-shop {
+    width: 270px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px;
+    background-color: #bca64d;
+}
+
+.closing-panel h4 + p {
+    font-size: 11px;
+    font-weight: 300;
+    color: #999;
+    padding: 15px;
+}
+
+// Footer
+
+.mail-list {
+    display: none;
 }
 
 .footer {
