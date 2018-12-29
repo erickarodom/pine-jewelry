@@ -98,6 +98,7 @@
     font-size: 20px;
     font-weight: normal;
     color: #000;
+    margin: 2em 1em;
 }
 
 .main-panels p {
@@ -106,30 +107,86 @@
     font-size: 14px;
     font-weight: 300;
     text-align: center;
+    padding: 0 12px 25px 12px;
+    margin: 0 auto;
+}
+
+.font-aws i,
+.fa {
+    display: inline-block;
+    padding: 0 7px 20px 7px;
+    color: #b0b0b0;
+}
+
+.img-4,
+.img-5 {
+    padding: 0 12px 0 12px;
 }
 
 .inverted-panel {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     background-color: #213947;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    margin-top: 30px;
 }
 
 .inverted-panel h2 {
     font-size: 20px;
     font-weight: normal;
+    margin: 25px 10px;
 }
 
 .inverted-panel h3 {
     font-size: 14px;
     font-weight: normal;
     color: #d9d9d9;
+    padding: 10px 0 15px 0;
 }
 
 .inverted-panel p {
     font-size: 11px;
     font-weight: 300;
     color: #999;
+}
+
+.ip-1,
+.ip-2,
+.ip-3,
+.ip-4 {
+    width: 150px;
+}
+
+.ip-col-one,
+.ip-col-two {
+    width: 320px;
+    display: flex;
+    flex-wrap: none;
+    justify-content: center;
+}
+
+p.img-text, {
+    padding: 0 28px 40px 28px;
+}
+
+.closing-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.soc-media a {
+    color: #bca64d;
+    display: inline-block;
+    padding: 50px 20px 65px;
 }
