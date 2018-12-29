@@ -234,3 +234,46 @@ p.img-text, {
     display: inline-block;
     padding: 50px 20px 65px;
 }
+
+input[type="email"] {
+    padding: 15px;
+    width: 270px;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    border: solid 2px #999;
+}
+
+button {
+    padding: 15px;
+    width: 270px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    background-color: #a0a1a1;
+}
+
+.footer-copy {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer .footer-copy p {
+    padding: 15px;
+    color: #999;
+}
+
+.footer .footer-copy p a {
+    text-decoration: none;
+    color: #999;
+}
