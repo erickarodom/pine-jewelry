@@ -31,13 +31,29 @@
     margin-top: 1em;
 }
 
+.logo {
+    position: absolute;
+    left: 2em;
+}
+
 .hamburger {
     position: absolute;
     right: 20px;
+
+    @media (min-width: 450px) {
+        display: none;
+    }
 }
 
 .hamburger a {
     color: #bca64d;
+}
+
+.navbar {
+    @media (min-width: 450px) {
+        position: absolute;
+        right: 20px;
+    }
 }
 
 .navbar a {
@@ -46,12 +62,20 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     padding-left: 2em;
+
+    @media (min-width: 450px) {
+        display: inline-block;
+    }
 }
 
 .header-text {
     text-align: center;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
+
+    @media (min-width: 450px) {
+        margin-top: 50px;
+    }
 }
 
 .header-text h1 {
@@ -84,6 +108,10 @@
     margin-top: 50px;
     padding: 15px 67px;
     text-transform: uppercase;
+
+    @media (min-width: 450px) {
+        display: none;
+    }
 }
 
 // Main panel
