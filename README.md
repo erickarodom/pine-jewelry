@@ -8,7 +8,7 @@ This basic boilerplate is the final output of this comprehensive write up on Med
 1. Navigate to the appropriate parent folder of where your project will be located. This example uses a folder on the desktop called "class projects". NOTE: Start from your home directory "~".
 
 ```
-$ cd desktop/class-projects
+$ cd path/my-projects
 ```
 
 2. Clone the webpack-starter into your parent folder with the following command:
@@ -21,7 +21,7 @@ $ git clone https://github.com/rachy/webpack-starter.git
 4. Change your directory to the project folder. 
 
 ```
-$ cd new-project
+$ cd my-project
 ```
 
 5. Install dependencies
