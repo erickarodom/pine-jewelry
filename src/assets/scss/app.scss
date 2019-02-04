@@ -173,6 +173,18 @@
     }
 }
 
+@media (min-width: 750px) {
+    .mp-2 .img-2 {
+        display: none;
+    }
+}
+
+@media (min-width: 750px) {
+    .beads {
+        background-image: url();
+    }
+}
+
 .main-panels h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
