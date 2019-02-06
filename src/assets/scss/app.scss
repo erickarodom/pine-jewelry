@@ -350,16 +350,35 @@ p.img-text, {
 .closing-panel {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.orders {
+    display: flex;
+    flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     align-items: center;
     text-align: center;
+
+    @media (min-width: 750px) {
+        position: absolute;
+        left: 20%;
+        bottom: 80px;
+        align-items: flex-start;
+        text-align: left;
+    }
 }
 
-.closing-panel div + h2 {
+.closing-panel div + .orders h2 {
     margin: 0 35px 0 35px;
     font-size: 22px;
     font-weight: 300;
     color: #999;
+
+    @media (min-width: 750px) {
+        margin: 0;
+    }
 }
 
 .coupon {
@@ -390,9 +409,10 @@ p.img-text, {
     }
 
     .cl-bg-img {
-        background-image: url("../media/resized/pine-cone-inv-resized.png");
+        background-image: url("../media/resized/pine-cone-cp-background.png");
         background-repeat: no-repeat;
         background-position: right;
+        background-size: cover;
         width: 1440px;
         height: 500px;
         position: relative;
