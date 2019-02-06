@@ -147,7 +147,7 @@
 
 .shop {
     background-color: #bca64d;
-    width: 320px;
+    width: 450px;
     font-size: 1.2em;
     font-weight: 600;
     letter-spacing: 2px;
@@ -436,16 +436,15 @@ p.img-text, {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-    // @media (min-width: 750px) {
-    //     flex-direction: row;
-    // }
 }
 
-.soc-media a {
-    color: #bca64d;
-    display: inline-block;
-    padding: 50px 20px 65px;
+form {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 750px) {
+        flex-direction: row;
+    }
 }
 
 input[type="email"] {
@@ -472,6 +471,13 @@ button {
     text-transform: uppercase;
     margin-bottom: 50px;
     background-color: #a0a1a1;
+
+    @media (min-width: 750px) {
+        margin-top: 35px;
+        margin-bottom: 8px;
+        margin-left: 5px;
+        width: 200px;
+    }
 }
 
 .mail-list,
@@ -480,6 +486,19 @@ button {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 300;
+}
+
+@media (min-width: 750px) {
+    .footer-copy {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.soc-media a {
+    color: #bca64d;
+    display: inline-block;
+    padding: 50px 20px 65px;
 }
 
 .footer .footer-copy p {
