@@ -7,6 +7,9 @@
 .main-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 // header & navigaion
@@ -159,30 +162,10 @@
 
 // Main panel
 
-.mp-1,
-.mp-2,
-.mp-3 {
+.main-panels {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-
-    @media (min-width: 750px) {
-        flex-direction: row;
-        text-align: justify;
-    }
-}
-
-@media (min-width: 750px) {
-    .mp-2 .img-2 {
-        display: none;
-    }
-}
-
-@media (min-width: 750px) {
-    .beads {
-        background-image: url();
-    }
 }
 
 .main-panels h2 {
@@ -193,9 +176,7 @@
     margin: 2em 1em;
 
     @media (min-width: 750px) {
-        width: 250px;
-        text-align: left;
-        margin: 85px 25px 20px 0;
+        margin: 0;
     }
 }
 
@@ -209,9 +190,21 @@
     margin: 0 auto;
 
     @media (min-width: 750px) {
-        text-align: left;
         padding: 0;
-        margin: 0 25px 50px 0;
+        margin: 0;
+    }
+}
+// MP Section One
+.mp-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    @media (min-width: 750px) {
+        flex-direction: row;
+        text-align: left;
+        justify-content: center;
     }
 }
 
@@ -227,7 +220,6 @@
         order: 2;
         margin-top: 25px;
         margin-right: 50px;
-        margin-left: 15px;
     }
 
     .mp-1-text {
@@ -236,18 +228,58 @@
         flex-direction: column;
         margin-left: 6em;
     }
+}
 
-    .font-aws {
-        margin-bottom: 50px;
+.mp-2 {
+    background-image: url("../media/beads.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    max-width: 100%;
+    min-width: 100%;
+    height: 280px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+// MP Section Two
+
+.mp-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    @media (min-width: 750px) {
+        flex-direction: row;
+        flex-wrap: nowrap;
     }
 }
 
-.img-4,
-.img-5 {
-    padding: 0 12px 0 12px;
+@media (min-width: 750px) {
+    .img-4 {
+        height: 400px;
+    }
 }
 
-// Inverted panel
+@media (min-width: 750px) {
+    .section-two-b {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mp-5 {
+        order: 2;
+    }
+
+    .mp-6 {
+        order: 1;
+    }
+}
+
+// Inverted Panel
 
 .inverted-panel {
     display: flex;
@@ -258,12 +290,20 @@
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin-top: 30px;
+
+    @media (min-width: 750px) {
+        width: 1440px;
+    }
 }
 
 .inverted-panel h2 {
     font-size: 20px;
     font-weight: normal;
     margin: 25px 10px;
+
+    @media (min-width: 750px) {
+        width: 500px;
+    }
 }
 
 .inverted-panel h3 {
@@ -277,6 +317,13 @@
     font-size: 11px;
     font-weight: 300;
     color: #999;
+}
+
+@media (min-width: 750px) {
+    .ip-models {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 .ip-1,
@@ -335,6 +382,24 @@ p.img-text, {
     font-weight: 300;
     color: #999;
     padding: 15px;
+}
+
+@media (min-width: 750px) {
+    .img-10 {
+        display: none;
+    }
+
+    .cl-bg-img {
+        background-image: url("../media/resized/pine-cone-inv-resized.png");
+        background-repeat: no-repeat;
+        background-position: right;
+        width: 1440px;
+        height: 500px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 // Footer
