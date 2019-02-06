@@ -426,12 +426,20 @@ p.img-text, {
 
 .mail-list {
     display: none;
+
+    @media (min-width: 750px) {
+        display: block;
+    }
 }
 
 .footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    // @media (min-width: 750px) {
+    //     flex-direction: row;
+    // }
 }
 
 .soc-media a {
@@ -466,6 +474,7 @@ button {
     background-color: #a0a1a1;
 }
 
+.mail-list,
 .footer-copy {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
