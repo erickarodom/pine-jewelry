@@ -177,6 +177,8 @@
 
     @media (min-width: 750px) {
         margin: 0;
+        line-height: 1.5;
+        padding-bottom: 25px;
     }
 }
 
@@ -187,7 +189,6 @@
     font-weight: 300;
     text-align: center;
     padding: 0 12px 25px 12px;
-    margin: 0 auto;
 
     @media (min-width: 750px) {
         padding: 0;
@@ -199,36 +200,57 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
 
     @media (min-width: 750px) {
         flex-direction: row;
+        margin: 0 10%;
+    }
+}
+
+@media (min-width: 750px) {
+    .img-1 {
+        order: 2;
+        padding-top: 40px;
+    }
+}
+
+.mp-1-text {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    @media (min-width: 750px) {
+        align-items: flex-start;
+        padding-top: 75px;
+        padding-right: 75px;
+    }
+}
+
+@media (min-width: 750px) {
+    .mp-1-text h2 {
         text-align: left;
-        justify-content: center;
+        width: 275.81px;
+    }
+}
+
+@media (min-width: 750px) {
+    .mp-1-text p {
+        text-align: left;
+        padding-bottom: 50px;
+        width: 402.22px;
     }
 }
 
 .font-aws i,
 .fa {
     display: inline-block;
-    padding: 0 7px 20px 7px;
+    padding: 0 15px 20px 7px;
     color: #b0b0b0;
 }
 
-@media (min-width: 750px) {
-    .img-1 {
-        order: 2;
-        margin-top: 25px;
-        margin-right: 50px;
-    }
-
-    .mp-1-text {
-        order: 1;
-        display: flex;
-        flex-direction: column;
-        margin-left: 6em;
-    }
-}
+// MP Section Two
 
 .mp-2 {
     background-image: url("../media/resized/beads900x280.jpg");
@@ -244,8 +266,6 @@
     align-items: center;
 }
 
-// MP Section Two
-
 .mp-3 {
     display: flex;
     flex-direction: column;
@@ -259,8 +279,35 @@
 }
 
 @media (min-width: 750px) {
+    .section-two-a {
+        margin-top: 10%;
+        margin-left: 18%;
+    }
+}
+
+@media (min-width: 750px) {
+    .mp-4 {
+        margin-left: -30px;
+    }
+}
+
+@media (min-width: 750px) {
     .img-4 {
-        height: 400px;
+        height: 350px;
+    }
+}
+
+@media (min-width: 750px) {
+    .mp-8 {
+        width: 350px;
+        text-align: left;
+    }
+
+    .mp-8 p {
+        text-align: left;
+        padding-bottom: 55px;
+        width: 335px;
+        margin: 0;
     }
 }
 
