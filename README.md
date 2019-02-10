@@ -12,6 +12,8 @@ Used Sass nesting liberally throughout my CSS.
 
 Resizing of photos for differnt break points and layouts.
 
+https://github.com/erickarodom/pine-jewelry/blob/master/dist/index.html
+
 
 
 
