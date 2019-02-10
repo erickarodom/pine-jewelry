@@ -252,7 +252,7 @@
 
 // MP Section Two
 
-.mp-2 {
+.main-panels .mp-2 {
     background-image: url("../media/resized/beads900x280.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -260,10 +260,7 @@
     max-width: 100%;
     min-width: 100%;
     height: 280px;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    display: inline-block;
 }
 
 .mp-3 {
@@ -281,7 +278,8 @@
 @media (min-width: 750px) {
     .section-two-a {
         margin-top: 10%;
-        margin-left: 18%;
+        margin-left: 5%;
+        margin-right: -10px;
     }
 }
 
@@ -316,6 +314,7 @@
         display: flex;
         flex-direction: column;
         margin-right: 18%;
+        margin-left: -10px;
     }
 
     .mp-5 {
@@ -324,6 +323,21 @@
 
     .mp-6 {
         order: 1;
+        margin-left: -50px;
+    }
+}
+
+@media (min-width: 750px) {
+    .mp-5 {
+        width: 350px;
+        text-align: left;
+    }
+
+    .mp-5 p {
+        text-align: left;
+        padding-bottom: 55px;
+        width: 335px;
+        margin: 0;
     }
 }
 
@@ -379,6 +393,11 @@
 .ip-3,
 .ip-4 {
     width: 150px;
+
+    @media (min-width: 750px) {
+        padding-left: 4px;
+        margin-right: 4px;
+    }
 }
 
 .ip-col-one,
@@ -387,9 +406,14 @@
     display: flex;
     flex-wrap: none;
     justify-content: center;
+
+    @media (min-width: 750px) {
+        margin-left: -7px;
+        margin-right: -7px;
+    }
 }
 
-p.img-text, {
+p.img-text {
     padding: 0 28px 40px 28px;
 }
 
@@ -412,43 +436,92 @@ p.img-text, {
     @media (min-width: 750px) {
         position: absolute;
         left: 20%;
-        bottom: 80px;
+        top: 200px;
         align-items: flex-start;
         text-align: left;
     }
 }
 
-.closing-panel div + .orders h2 {
-    margin: 0 35px 0 35px;
+.orders .custom {
+    width: 325px;
     font-size: 22px;
     font-weight: 300;
     color: #999;
 
     @media (min-width: 750px) {
         margin: 0;
+        width: 100%;
+        font-size: 25px;
+        font-weight: lighter;
     }
 }
 
-.coupon {
+.closing-panel .orders .coupon {
     margin: 15px 35px 25px 35px;
     font-size: 22px;
-    font-weight: 400;
-    color: #666;
+    font-weight: bolder;
+    color: #545454;
+    padding-bottom: 3px;
+
+    @media (min-width: 750px) {
+        font-size: 30px;
+        padding-bottom: 50px;
+        margin: 0;
+    }
 }
 
 .close-shop {
     width: 270px;
     color: #fff;
+    font-size: 16px;
     text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
     padding: 15px;
     background-color: #bca64d;
+
+    @media (min-width: 750px) {
+        width: 250px;
+        padding: 15px;
+        font-size: 14px;
+    }
 }
 
-.closing-panel h4 + p {
-    font-size: 11px;
-    font-weight: 300;
+@media (min-width: 750px) {
+    .orders h4 {
+        order: 2;
+    }
+
+    .orders p {
+        order: 1;
+    }
+}
+
+.closing-panel p {
+    font-size: 10px;
+    font-weight: bold;
     color: #999;
-    padding: 15px;
+    padding: 15px 0;
+
+    @media (min-width: 750px) {
+        font-size: 20px;
+        font-weight: lighter;
+        word-spacing: 1.5px;
+    }
+}
+
+@media (min-width: 750px) {
+    .closing-panel .orders .custom,
+    .closing-panel .orders .coupon {
+        color: #545454;
+    }
+
+    @media (min-width: 750px) {
+        .closing-panel .orders .custom {
+            padding-bottom: 8px;
+            // font-size: 11px;
+        }
+    }
 }
 
 @media (min-width: 750px) {
@@ -506,6 +579,12 @@ input[type="email"] {
     font-weight: 300;
     font-style: italic;
     border: solid 2px #999;
+
+    @media (min-width: 750px) {
+        width: 300px;
+        height: 45px;
+        margin-bottom: 90px;
+    }
 }
 
 button {
@@ -525,6 +604,7 @@ button {
         margin-bottom: 8px;
         margin-left: 5px;
         width: 200px;
+        height: 45px;
     }
 }
 
@@ -537,6 +617,12 @@ button {
 }
 
 @media (min-width: 750px) {
+    .mail-list {
+        color: #666;
+        font-size: 20px;
+        font-weight: lighter;
+    }
+
     .footer-copy {
         display: flex;
         flex-direction: row;
