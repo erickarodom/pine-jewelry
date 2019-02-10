@@ -1,15 +1,19 @@
 # pine-jewelry
+
 Webpack based PSD to HTML project
 
 This is a wonderfully challenging project. 
 
 This is a responsive mobile first project that test layout skills.
 
-Sass nesting comes in very hand in this project.
+Flexbox was used for layout.
 
-Resizing of photos for differnt break points and layouts
+Used Sass nesting liberally throughout my CSS.
 
-Once I got into the rythm of the project it was enjoyable and is a work in progress.
+Resizing of photos for differnt break points and layouts.
+
+
+
 
 
 
